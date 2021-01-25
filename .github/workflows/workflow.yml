@@ -22,3 +22,5 @@ jobs:
       run: dotnet build src/DeepEqual.sln -c Release --no-restore
     - name: Test
       run: dotnet test src/DeepEqual.sln --no-restore --verbosity normal
+    - name: Pack
+      run: dotnet pack -c Release --no-restore --verbosity normal -o . src/DeepEqual/DeepEqual.csproj
