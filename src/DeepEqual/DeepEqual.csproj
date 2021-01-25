@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461;net462;netcoreapp2.1</TargetFrameworks>
-
+    <ProductName>asjp.DeepEqual</ProductName>
     <Version>2.0.0</Version>
     <Description>An extensible deep comparison library for .NET</Description>
-    <Authors>James Foster</Authors>
+    <Authors>James Foster, Andrey Sayapin</Authors>
     <PackageLicenseUrl>http://opensource.org/licenses/MIT</PackageLicenseUrl>
     <PackageProjectUrl>http://github.com/jamesfoster/DeepEqual</PackageProjectUrl>
-    <Copyright>James Foster 2018</Copyright>
+    <Copyright>James Foster 2018; Andrey Sayapin 2021</Copyright>
     <PackageTags>deepequal deep equal equality comparison compare</PackageTags>
     
     <SignAssembly>true</SignAssembly>
