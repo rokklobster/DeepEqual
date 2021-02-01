@@ -9,6 +9,8 @@ obj/
 packages/
 *.nupkg
 .vs/
+.idea/
+.vscode/
 
 _ReSharper*/
 
