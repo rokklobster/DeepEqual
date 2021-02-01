@@ -24,6 +24,6 @@ jobs:
     - name: Test
       run: dotnet test src/DeepEqual.sln --no-restore --verbosity normal
     - name: Pack
-      run: dotnet pack -c Release --no-restore --verbosity normal -o . src/DeepEqual/DeepEqual.csproj
+      run: dotnet pack src/DeepEqual/DeepEqual.csproj -c Release --no-restore --verbosity normal -o .
     - name: Push
       run: dotnet nuget push *.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json
